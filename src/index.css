@@ -42,3 +42,9 @@ h1 {
   width: var(--width-lg);
   margin : 0 auto;
 }
+
+.title {
+  position: relative;
+  right: 10%;
+  margin-bottom: 7%;
+}

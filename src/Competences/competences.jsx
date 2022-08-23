@@ -54,8 +54,9 @@ var data = [
 
 const competences = () => {
   return (
+    <div>
+    <h1 className="title">MES COMPETENCES</h1>
     <div id="competences" className="container">
-      <h1 className="title">MES COMPETENCES</h1>
         <div className="competences_items">
           {
             data.map(({id, img, name}) => {
@@ -68,6 +69,7 @@ const competences = () => {
             })
           }
         </div>
+    </div>
     </div>
   )
 }

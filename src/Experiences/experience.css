@@ -1,0 +1,22 @@
+.experience_title {
+    text-align: center;
+}
+
+.experience_border {
+    border: 1px solid #fff;
+    height: 250px;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet  {
+    background: var(--color-title);
+}
+
+.swiper-button-prev:after, .swiper-rtl, .swiper-button-next:after {
+    color: var(--color-title);
+}
+
+.experience_description {
+    text-align: justify;
+    margin: 2%;
+}
+
