@@ -1,0 +1,29 @@
+
+.competences_items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 15%;
+    margin-top: 2.5rem;
+}
+article {
+    margin-bottom: 2.5rem;
+}
+
+.competences_img {
+    outline: 1px solid  var(--color-title);
+    outline-offset: 10px;
+    border-radius: 0.1rem 0 0;
+    width: 80px;
+}
+
+.competences_name {
+    border: 1px solid  var(--color-title);
+    background: var(--color-title);
+    position: relative;
+    bottom: 20px;
+    right: 11px;
+    width: 100px;
+    border-radius: 0 0 0.5rem;
+    text-align: center;
+    color: black;
+}
