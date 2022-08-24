@@ -23,25 +23,33 @@ var data = [
     id: 1,
     name : "Python",
     img: PYTHON,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repellat corporis voluptatem error laborum minima sint sequi adipisci, debitis ducimus. Quod consequuntur voluptatibus illo velit aspernatur reiciendis officiis fugiat minima?"
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repellat corporis voluptatem error laborum minima sint sequi adipisci, debitis ducimus. Quod consequuntur voluptatibus illo velit aspernatur reiciendis officiis fugiat minima?",
+    date: "janvier 2021 - decembre 2021",
+    competences: "CSS Html PHP"
   },
   {
     id: 2,
     name : "NodeJs",
     img: NODEJS,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repellat corporis voluptatem error laborum minima sint sequi adipisci, debitis ducimus. Quod consequuntur voluptatibus illo velit aspernatur reiciendis officiis fugiat minima?"
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repellat corporis voluptatem error laborum minima sint sequi adipisci, debitis ducimus. Quod consequuntur voluptatibus illo velit aspernatur reiciendis officiis fugiat minima?",
+    date: "janvier 2021 - decembre 2021",
+    competences: "CSS Html PHP"
   },
   {
     id: 3,
     name : "ReactJs",
     img: REACT,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repellat corporis voluptatem error laborum minima sint sequi adipisci, debitis ducimus. Quod consequuntur voluptatibus illo velit aspernatur reiciendis officiis fugiat minima?"
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repellat corporis voluptatem error laborum minima sint sequi adipisci, debitis ducimus. Quod consequuntur voluptatibus illo velit aspernatur reiciendis officiis fugiat minima?",
+    date: "janvier 2021 - decembre 2021",
+    competences: "CSS Html PHP"
   },
   {
     id: 4,
     name : "PHP",
     img: PHP,
-    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repellat corporis voluptatem error laborum minima sint sequi adipisci, debitis ducimus. Quod consequuntur voluptatibus illo velit aspernatur reiciendis officiis fugiat minima?"
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos repellat corporis voluptatem error laborum minima sint sequi adipisci, debitis ducimus. Quod consequuntur voluptatibus illo velit aspernatur reiciendis officiis fugiat minima?",
+    date: "janvier 2021 - decembre 2021",
+    competences: "CSS Html PHP"
   }
 ]
 
@@ -58,13 +66,21 @@ const experience = () => {
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}>
           {
-            data.map(({id, img, name, description}) => {
+            data.map(({id, img, name, description, date, competences}) => {
               return (
                 <SwiperSlide key={id} className="experience" >
                   <div className="experience_border">
                     <h3 className="experience_title">{name}</h3>
-                    <center><img className="experience_img" src={img} /> </center>
-                    <h5 className="experience_description">{description}</h5>
+                    <div className="experience_grid">
+                      <div className="experience_divimage">
+                        <img className="experience_img" src={img} />
+                      </div>
+                      <div className="experience_description">
+                        <h5 className="experience_description">Date : {date}</h5>
+                        <h5 className="experience_description">Compétences : {competences}</h5>
+                        <h5 className="experience_description">Description : {description}</h5>
+                      </div>
+                    </div>
                   </div>
                 </SwiperSlide>
               )

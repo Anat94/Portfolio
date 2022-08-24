@@ -1,10 +1,14 @@
 .experience_title {
     text-align: center;
+    color: var(--color-title);
 }
 
 .experience_border {
     border: 1px solid #fff;
-    height: 250px;
+}
+
+.experience_container {
+    width: 75%;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet  {
@@ -20,3 +24,13 @@
     margin: 2%;
 }
 
+.experience_divimage {
+    position: relative;
+    left: 50%;
+    top: 20%;
+}
+
+.experience_grid {
+    display: grid;
+    grid-template-columns: 25% 1fr;
+}
