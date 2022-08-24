@@ -1,5 +1,6 @@
 import React from 'react'
 import "./home.css"
+import "./home.scss"
 import LOGO from "../assets/logo.png"
 import AVATAR from "../assets/avatar.png"
 
@@ -23,8 +24,9 @@ const home = () => {
             <div className="name">
                 ANATOLE BABIN
             </div>
-            <div className="job">
-                Developpeur Web
+            <div class="typing-slider">
+                <p>Etudiant EPITECH Paris</p>
+                <p>Developpeur Web</p>
             </div>
             <div className="presentation">
                 <div className="avatar">
