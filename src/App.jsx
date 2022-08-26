@@ -1,3 +1,4 @@
+import React from 'react'
 import './App.css';
 import  Home from './Home/home.jsx'
 import  Competences from './Competences/competences.jsx'
