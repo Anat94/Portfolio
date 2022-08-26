@@ -4,6 +4,7 @@ import  Competences from './Competences/competences.jsx'
 import  Experiences from './Experiences/experience.jsx'
 import  Projets from './Projets/projets.jsx'
 import  Contact from './Contact/contact.jsx'
+import  Footer from './Footer/footer.jsx'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Experiences />
       <Projets />
       <Contact />
+      <Footer />
     </>
   );
 }

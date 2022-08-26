@@ -1,0 +1,30 @@
+.footer {
+    background: #0E2346;
+    height: 100px;
+    margin-top: 50px;
+}
+
+.footer_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer_droits {
+    text-align: center;
+    margin: 2.5rem;
+
+}
+
+.footer_icons {
+    text-align: center;
+    margin: 2rem;
+}
+
+.icon {
+    margin-left: 2.5rem;
+}
+
+.icon:hover {
+    color: var(--color-title);
+    cursor: pointer;
+}

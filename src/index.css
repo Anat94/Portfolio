@@ -20,9 +20,9 @@ html {
   scroll-behavior: smooth;
 }
 
-::webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
-}
+  }
 
 
 body {
@@ -49,3 +49,4 @@ h1 {
   margin-bottom: 5%;
   font-weight: 500;
 }
+

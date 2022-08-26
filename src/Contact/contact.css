@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    width: 70%;
+    padding: 1rem;
+    background: transparent;
+    border: 1px solid var(--color-title);
+    resize: none;
+    color: #fff;
+    position: relative;
+    left: 200px;
+}
+
+.contact_button {
+    background: transparent;
+    border: 1px solid var(--color-title);
+    color: var(--color-title);
+    width: 20%;
+    position: relative;
+    left: 945px;
+    height: 50px;
+    transition: var(--transition);
+}
+
+.contact_button:hover {
+    background: var(--color-title);
+    border: 1px solid transparent;
+    color: var(--color-bg);
+}
