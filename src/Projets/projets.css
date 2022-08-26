@@ -1,0 +1,47 @@
+.projets_title {
+    margin-top: 5%;
+}
+
+.projets {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    left: 60px;
+}
+
+.projet {
+    /* border: 1px solid  #fff; */
+    display: flex;
+    flex-direction: column;
+    width: 82%;
+}
+
+.projets_tag:empty {
+    display: none;
+}
+
+.projets_tag {
+    color: #000000;
+    background-color: var(--color-title);
+    border-radius: 2rem;
+    padding: 0.2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 4%;
+}
+
+.projets_description {
+    margin-bottom: 7%;
+    margin-top: 7%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: justify;
+}
+
+.project_title {
+    color: #fff;
+    margin-left: 0.5rem;
+    text-decoration: underline;
+    text-underline-position: under;
+
+}

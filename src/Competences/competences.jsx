@@ -55,8 +55,8 @@ var data = [
 const competences = () => {
   return (
     <div>
-    <h1 className="title">MES COMPETENCES</h1>
-    <div id="competences" className="container">
+    <h1 id="competences" className="title">MES COMPETENCES</h1>
+    <div className="container">
         <div className="competences_items">
           {
             data.map(({id, img, name}) => {

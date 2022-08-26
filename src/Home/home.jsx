@@ -13,18 +13,18 @@ const home = () => {
                 <img className="logo_img"src={LOGO} alt="" />
             </div>
             <div className="menu_items">
-                <a href="#" >Présentation</a>
-                <a href="#" >Compétences</a>
-                <a href="#" >Expériences</a>
-                <a href="#" >Projets</a>
-                <a href="#" >Contact</a>
+                <a href="#home" >Présentation</a>
+                <a href="#competences" >Compétences</a>
+                <a href="#experience" >Expériences</a>
+                <a href="#projets" >Projets</a>
+                <a href="#contact" >Contact</a>
             </div>
         </div>
         <div className="about">
             <div className="name">
                 ANATOLE BABIN
             </div>
-            <div class="typing-slider">
+            <div className="typing-slider">
                 <p>Etudiant EPITECH Paris</p>
                 <p>Developpeur Web</p>
             </div>

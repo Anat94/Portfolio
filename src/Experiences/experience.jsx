@@ -56,8 +56,8 @@ var data = [
 const experience = () => {
   return (
     <div>
-      <h1 className="title">MES EXPERIENCES</h1>
-      <div id="experience" className="container">
+      <h1 id="experience" className="title">MES EXPERIENCES</h1>
+      <div  className="container">
           <Swiper className=" experience_container"
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={40}
