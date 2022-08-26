@@ -4,9 +4,20 @@
 
 .projets {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    left: 47px;
+
+    /* display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+
+
+
+    /* gap: 4px; */
     position: relative;
-    left: 60px;
+    /* left: 3%; */
 }
 
 .projet {
@@ -44,4 +55,15 @@
     text-decoration: underline;
     text-underline-position: under;
 
+}
+
+@media screen and (max-width: 1600px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+    .projets {
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+    }
 }

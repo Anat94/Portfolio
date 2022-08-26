@@ -34,3 +34,15 @@
     display: grid;
     grid-template-columns: 25% 1fr;
 }
+
+@media screen and (max-width: 1600px) {
+    .experience_container {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .experience_container {
+        width: 90%;
+    }
+}

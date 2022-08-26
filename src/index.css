@@ -50,3 +50,18 @@ h1 {
   font-weight: 500;
 }
 
+/* ============ MEDIA QUERIES (MEDIUM DEVICES) =================== */
+
+@media screen and (max-width: 1600px) {
+  .container {
+      width: 90%;
+  }
+}
+
+/* ============ MEDIA QUERIES (SMALL DEVICES) =================== */
+
+@media screen and (max-width: 600px) {
+  .container {
+      width: var(--width-sm);
+  }
+}

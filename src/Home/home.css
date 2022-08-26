@@ -1,9 +1,14 @@
 .navbar {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     width: 95%;
     position :fixed;
     z-index: 10;
+    margin-top: -1.5%;
+}
+
+.about {
+    margin-top: 2%;
 }
 
 a {
@@ -12,10 +17,6 @@ a {
     position: relative;
     top: 1rem;
     color: #fff;
-}
-
-.menu_items {
-    padding-left: 35rem;
 }
 
 .logo_img {
@@ -49,7 +50,7 @@ a:hover{
 
 .presentation {
     display: grid;
-    grid-template-columns: 50% 30%;
+    grid-template-columns: 1fr 1fr;
 }
 
 .avatar {
@@ -74,7 +75,7 @@ a:hover{
 }
 .download {
     border: 1px solid  var(--color-title);
-    width: 40%;
+    width: 60%;
     height: 3rem;
     position: relative;
     bottom: 60%;
@@ -100,4 +101,12 @@ a:hover{
     grid-template-rows: 1fr 1fr;
     gap: 30%;
     text-align: justify;
+}
+
+@media screen and (max-width: 1070px) {
+    .navbar {
+        display: flex;
+        position: relative;
+        left: 25%;
+    }
 }

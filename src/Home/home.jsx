@@ -7,7 +7,7 @@ import AVATAR from "../assets/avatar.png"
 
 const home = () => {
   return (
-    <div id="home">
+    <div id="home" className="container">
         <div className="navbar">
             <div className="logo">
                 <img className="logo_img"src={LOGO} alt="" />
